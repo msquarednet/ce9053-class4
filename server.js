@@ -1,5 +1,5 @@
-var fizzbuzz = required("ek_fb");
-var foo = require("foo");
+var fizzbuzz = require("ek_fb");
+//var foo = require("foo");
 var fs = require("fs");
 
 console.log(fs.readFile);
@@ -9,4 +9,4 @@ fs.readFile("README.md", function(err, data) {
 
 
 console.log(fizzbuzz);
-console.log(foo);
+//console.log(foo);
